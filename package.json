@@ -1,0 +1,15 @@
+﻿{
+  "name": "tgbot-vercel-webhook",
+  "version": "1.0.0",
+  "private": true,
+  "main": "api/index.js",
+  "scripts": {
+    "start": "vercel dev",
+    "test:local": "node test.js"
+  },
+  "dependencies": {
+    "axios": "^1.8.2",
+    "dotenv": "^16.6.1",
+    "telegraf": "^4.16.3"
+  }
+}
